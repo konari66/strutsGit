@@ -12,5 +12,10 @@
 Product Id:<s:property value="id"/><br/>  
 Product Name:<s:property value="name"/><br/>  
 Product Price:<s:property value="price"/><br/> 
+
+<!--  added for third commit  -->
+<s:form action="sales">  
+<s:submit value="Want to sale?"></s:submit>  
+</s:form>
 </body>
 </html>
