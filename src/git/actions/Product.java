@@ -25,7 +25,7 @@ public class Product
 	}  
 
 	public String execute(){ 
-		System.out.println("Action is involked.");
+		System.out.println("Product action is involked.");
 		return "success";  
 	}  
 }
