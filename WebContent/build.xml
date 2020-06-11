@@ -4,7 +4,7 @@
     </description>
 
   <!-- set global properties for this build -->
-  <property name="projectName" value="ProjectName"/>
+  <property name="projectName" value="StrutsGit"/>
   <property name="src" location="src"/>
   <property name="build" location="build"/>
   <property name="dist"  location="dist"/>
@@ -20,7 +20,7 @@
   <target name="compile" depends="init"
   	description="compile the source " >
     	<!-- Compile the java code from ${src} into ${build} -->
-   	<javac srcdir="${src}" destdir="${build}"/>
+   	<javac includeantruntime="false" srcdir="${src}" destdir="${build}"/>
   </target>
 
   <target name="dist" depends="compile"
